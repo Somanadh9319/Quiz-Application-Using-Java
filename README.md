@@ -1,2 +1,49 @@
 # Quiz-Application-Using-Java
 A Java-based Quiz Application with an interactive GUI built using Swing.  Provides login, rules, quiz, and score screens with modular class-based design.  Lightweight, runs on any system with JDK 8+, and easy to extend with new features.  Supports enhancements like timers, database integration, leaderboards, and result export.
+
+## 📌 Project Overview
+This is a Java-based Quiz Application built with Swing for the GUI. 
+It provides a smooth and interactive quiz experience where users log in, 
+view rules, attempt questions, and finally see their score. 
+The project is modular with separate classes for login, rules, quiz, and score handling.
+
+## 👨‍💻 Done By
+Somanadh Jonnalagadda
+
+## ⚙️ Tech Stack
+- Java (JDK 8 or above) – Core programming language
+- Swing – GUI components (buttons, labels, dialogs, frames)
+- OOP Concepts – Classes for modularity (Login, Rules, Quiz, Score)
+- Ant/NetBeans – Build and run support via `build.xml`
+- Image Assets – Icons for GUI screens
+
+## 📂 Project Structure
+```
+Quiz-Application-Using-Java-master/
+│── build.xml
+│── manifest.mf
+│── src/
+│   ├── icons/
+│   │   ├── login.jpeg
+│   │   ├── quiz.jpg
+│   │   └── score.png
+│   └── quiz/application/
+│       ├── Login.java   # Handles user login
+│       ├── Rules.java   # Displays quiz rules
+│       ├── Quiz.java    # Main quiz logic
+│       └── Score.java   # Shows user’s score
+│
+└── build/ (compiled classes & resources)
+```
+## 🛠 Features
+- User Login Page before starting the quiz
+- Rules Page showing instructions
+- Quiz Page with multiple-choice questions
+- Score Page showing user’s result
+- Simple, interactive GUI
+
+## 📌 Future Enhancements
+- Add a timer for each question
+- Fetch questions from a file/database instead of hardcoding
+- Add leaderboards and user history
+- Export quiz results as PDF/CSV
